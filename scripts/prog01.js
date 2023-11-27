@@ -12,4 +12,4 @@ function contaWhile() {
 }
 
 
-btnConWhile.addEventListener("click", contaWhile) 
+btnConWhile.addEventListener("click", contaWhile)
