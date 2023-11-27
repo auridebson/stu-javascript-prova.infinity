@@ -1,4 +1,5 @@
 const btnConWhile = document.querySelector("#btnConWhile")
+const btnReset = document.querySelector("#btnReset")
 const containerResultado = document.querySelector(".container-resultado")
 
 function contaWhile() {
@@ -11,5 +12,9 @@ function contaWhile() {
     }
 }
 
+function reset() {
+    containerResultado.innerHTML = ""
+}
 
 btnConWhile.addEventListener("click", contaWhile)
+btnReset.addEventListener("click", reset)

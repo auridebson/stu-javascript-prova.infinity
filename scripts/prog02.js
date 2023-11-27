@@ -10,3 +10,4 @@ function contaFor() {
 }
 
 btnConFor.addEventListener("click", contaFor)
+btnReset.addEventListener("click", reset)
