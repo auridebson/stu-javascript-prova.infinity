@@ -8,7 +8,7 @@ function contaWhile() {
     containerItens.innerHTML = ""
     while (count < 10) {
         console.log(count)
-        containerItens.innerHTML += `<p>${count}</p>`
+        containerItens.innerHTML += `<p>${count} - Usando While</p>`
         count ++
     }
 }
