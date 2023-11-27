@@ -1,10 +1,10 @@
 const btnConFor = document.querySelector("#btnConFor")
 
 function contaFor() {
-    containerResultado.innerHTML = ""
+    containerItens.innerHTML = ""
     for (i=0; i<10; i++) {
         console.log(i)
-        containerResultado.innerHTML += `<p>${i}</p>`
+        containerItens.innerHTML += `<p>${i}</p>`
     }
 
 }

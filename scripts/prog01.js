@@ -1,19 +1,20 @@
 const btnConWhile = document.querySelector("#btnConWhile")
 const btnReset = document.querySelector("#btnReset")
-const containerResultado = document.querySelector(".container-resultado")
+const containerItens = document.querySelector(".container-itens")
+const containerCompras = document.querySelector(".container-compras")
 
 function contaWhile() {
     let count = 0
-    containerResultado.innerHTML = ""
+    containerItens.innerHTML = ""
     while (count < 10) {
         console.log(count)
-        containerResultado.innerHTML += `<p>${count}</p>`
+        containerItens.innerHTML += `<p>${count}</p>`
         count ++
     }
 }
 
 function reset() {
-    containerResultado.innerHTML = ""
+    containerItens.innerHTML = ""
 }
 
 btnConWhile.addEventListener("click", contaWhile)
