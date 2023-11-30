@@ -14,9 +14,6 @@
 
 
 const faixas = [
-    {nome: {
-        
-    }}
     {faixa: "sem faixa", tempo: 6},
     {faixa: "amarela", tempo: 12},
     {faixa: "laranja", tempo: 18},
