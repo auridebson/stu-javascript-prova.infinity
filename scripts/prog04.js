@@ -1,6 +1,22 @@
 
 
+// TESTES COM O ARQUIVO dados.json - Sem sucesso para entender o conceito de objeto com JSon
+// async function carregarJSON() {
+//     try {
+//       const resposta = await fetch('dados.json');
+//       const dados = await resposta.json();
+//     } catch (erro) {
+//       console.error('Erro ao carregar o arquivo JSON:', erro);
+//     }
+//   }
+
+
+
+
 const faixas = [
+    {nome: {
+        
+    }}
     {faixa: "sem faixa", tempo: 6},
     {faixa: "amarela", tempo: 12},
     {faixa: "laranja", tempo: 18},
@@ -18,9 +34,6 @@ const faixas = [
     {faixa: "vermelha 9º DAN", tempo: 24},
     {faixa: "vermelha 10º DAN", tempo: 24}
 ]
-
-let fruits = ["banana", "coco", "morango", "melão", "melancia", "manga"]
-let frutasRemovidas = []
 
 
 for (obj of faixas) {

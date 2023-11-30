@@ -1,6 +1,5 @@
 { 
-    "faixas" : 
-    [
+    "faixas" : [
         {"faixa": "sem faixa", "tempo": 6},
         {"faixa": "amarela", "tempo": 12},
         {"faixa": "laranja", "tempo": 18},
@@ -18,4 +17,5 @@
         {"faixa": "vermelha 9º DAN", "tempo": 24},
         {"faixa": "vermelha 10º DAN", "tempo": 24}
     ]
+
 }
